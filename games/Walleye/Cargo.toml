@@ -1,0 +1,18 @@
+[package]
+name = "walleye"
+version = "1.5.2"
+authors = ["MitchelPaulin <mitchel0022@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mimalloc = { version = "*", default-features = false }
+colored = "2.0.0"
+clap = "~2.33.3"
+simple-logging = "2.0.2"
+log = "0.4"
+
+[profile.release]
+lto = true
+codegen-units = 1

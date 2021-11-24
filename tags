@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/gocode/gits/Usefull-Scripts/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+A	donuts/donut.py	/^A = 1.0$/;"	v
+B	donuts/donut.py	/^B = 1.0$/;"	v
+BLACK	games/game_of_life.py	/^BLACK = (0, 0, 0)$/;"	v
+BLUE	games/game_of_life.py	/^BLUE = (0, 0, 255)$/;"	v
+CELL_COLORS	games/game_of_life.py	/^CELL_COLORS = [RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN]$/;"	v
+CYAN	games/game_of_life.py	/^CYAN = (0, 255, 255)$/;"	v
+Cell	games/game_of_life.py	/^class Cell(pg.sprite.Sprite):$/;"	c
+EXTENSION	database/databaseP.py	/^            EXTENSION = file_name.split(".")[1]$/;"	v
+FILE_	database/databaseP.py	/^            FILE_ = file_name + "." + file_type$/;"	v
+FILE_TYPES	database/databaseP.py	/^            FILE_TYPES = {$/;"	v
+FONT	games/game_of_life.py	/^FONT = 'courier new'$/;"	v
+FONTSIZE	games/game_of_life.py	/^FONTSIZE = 15$/;"	v
+FPS	games/game_of_life.py	/^FPS = 60$/;"	v
+GENERATIONS_PER_SECOND	games/game_of_life.py	/^GENERATIONS_PER_SECOND = 20$/;"	v
+GREEN	games/game_of_life.py	/^GREEN = (0, 255, 0)$/;"	v
+GREY	games/game_of_life.py	/^GREY = (60, 60, 60)$/;"	v
+Game	games/game_of_life.py	/^class Game:$/;"	c
+HEIGHT	games/game_of_life.py	/^HEIGHT = 768$/;"	v
+IMAGE	database/databaseP.py	/^                IMAGE = cv2.imread(PATH)$/;"	v
+K1	donuts/donut.py	/^K1 = screen_width*K2*3\/(8*(R1+R2))$/;"	v
+K2	donuts/donut.py	/^K2 = 5$/;"	v
+LEFT	games/game_of_life.py	/^LEFT = 0$/;"	v
+LIGHT_GREY	games/game_of_life.py	/^LIGHT_GREY = (180, 180, 180)$/;"	v
+MAGENTA	games/game_of_life.py	/^MAGENTA = (255, 0, 255)$/;"	v
+NAME	database/databaseP.py	/^            NAME = file_name.split(".")[0]$/;"	v
+PASSWORD	database/databaseP.py	/^PASSWORD = "123456"$/;"	v
+PATH	database/databaseP.py	/^            PATH = raw_input("Type in the full path to the file you want to store.\\nExample: \//;"	v
+QuotesSpider	web/web_scrapy.py	/^class QuotesSpider(scrapy.Spider):$/;"	c
+R	donuts/donut.c	/^      #define R(/;"	d	file:
+R1	donuts/donut.py	/^R1 = 1$/;"	v
+R2	donuts/donut.py	/^R2 = 2$/;"	v
+RANDOM_CHANCE_TO_ALIVE_CELL	games/game_of_life.py	/^RANDOM_CHANCE_TO_ALIVE_CELL = 0.3$/;"	v
+RED	games/game_of_life.py	/^RED = (255, 0, 0)$/;"	v
+RIGHT	games/game_of_life.py	/^RIGHT = 2$/;"	v
+TILESIZE	games/game_of_life.py	/^TILESIZE = next(TILESIZES)$/;"	v
+TILESIZES	games/game_of_life.py	/^TILESIZES = cycle([8, 16, 32, 64])$/;"	v
+TITLE	games/game_of_life.py	/^TITLE = "Conway's Game of Life"$/;"	v
+Usefull-Scripts	README.md	/^# Usefull-Scripts$/;"	c
+WHITE	games/game_of_life.py	/^WHITE = (255, 255, 255)$/;"	v
+WIDTH	games/game_of_life.py	/^WIDTH = 1024$/;"	v
+YELLOW	games/game_of_life.py	/^YELLOW = (255, 255, 0)$/;"	v
+__init__	games/game_of_life.py	/^    def __init__(self):$/;"	m	class:Game
+__init__	games/game_of_life.py	/^    def __init__(self, game, x, y):$/;"	m	class:Cell
+blit	games/game_of_life.py	/^    def blit(self, position, text, color=LIGHT_GREY):$/;"	m	class:Game
+command	database/databaseP.py	/^            command = 'INSERT INTO SAFE (FULL_NAME, NAME, EXTENSION, FILES) VALUES (%s, %s, %s, /;"	v
+conn	database/databaseP.py	/^    conn = sqlite3.connect('mysafe.db')$/;"	v
+connect	database/databaseP.py	/^    connect = raw_input("What is your password?\\n")$/;"	v
+connect	database/databaseP.py	/^connect = raw_input("What is your password?\\n")$/;"	v
+count	system/audio_book.py	/^count = pdf_Reader.numPages # counts number of pages in pdf$/;"	v
+cursor	database/databaseP.py	/^            cursor = conn.execute("SELECT * from SAFE WHERE FULL_NAME=" + '"' + FILE_ + '"')$/;"	v
+distance	randomWalk/randomWalk3.py	/^        distance = abs(x) + abs(y)$/;"	v
+distance	system/python_autoDraw.py	/^distance = 250$/;"	v
+draw	games/game_of_life.py	/^    def draw(self):$/;"	m	class:Game
+draw_grid	games/game_of_life.py	/^    def draw_grid(self):$/;"	m	class:Game
+draw_menu	games/game_of_life.py	/^    def draw_menu(self):$/;"	m	class:Game
+events	games/game_of_life.py	/^    def events(self):$/;"	m	class:Game
+file_name	database/databaseP.py	/^            file_name = PATH.split("\/")$/;"	v
+file_name	database/databaseP.py	/^            file_name = file_name[len(file_name) - 1]$/;"	v
+file_name	database/databaseP.py	/^            file_name = raw_input("What is the name of the file you want to open?\\n")$/;"	v
+file_string	database/databaseP.py	/^                file_string = base64.b64encode(cv2.imencode('.jpg', IMAGE)[1]).decode()$/;"	v
+file_string	database/databaseP.py	/^                file_string = base64.b64encode(file_string)$/;"	v
+file_string	database/databaseP.py	/^                file_string = open(PATH, "r").read()$/;"	v
+file_string	database/databaseP.py	/^                file_string = row[3]$/;"	v
+file_string	database/databaseP.py	/^            file_string = ""$/;"	v
+file_type	database/databaseP.py	/^            file_type = raw_input("What is the filetype of the file you want to open?\\n")$/;"	v
+g	games/game_of_life.py	/^g = Game()$/;"	v
+input_	database/databaseP.py	/^        input_ = raw_input(":")$/;"	v
+language	system/audio_book.py	/^language = 'en'$/;"	v
+language	system/test2speech.py	/^language = "en"$/;"	v
+main	donuts/donut.c	/^         main(){float z[1760],a$/;"	f
+myAudio	system/audio_book.py	/^myAudio = gTTS(text=textString, lang=language, slow=False)$/;"	v
+name	web/web_scrapy.py	/^    name = 'quotes'$/;"	v	class:QuotesSpider
+new	games/game_of_life.py	/^    def new(self):$/;"	m	class:Game
+new_generation	games/game_of_life.py	/^    def new_generation(self):$/;"	m	class:Game
+no_transport	randomWalk/randomWalk3.py	/^    no_transport = 0 # Number of walks 4 or fewer blocks from home$/;"	v
+no_transport_percentage	randomWalk/randomWalk3.py	/^    no_transport_percentage = float(no_transport) \/ number_of_walks$/;"	v
+number_of_walks	randomWalk/randomWalk3.py	/^number_of_walks = 10000$/;"	v
+off	games/game_of_life.py	/^    def off(self, color=BLACK):$/;"	m	class:Cell
+on	games/game_of_life.py	/^    def on(self, color=WHITE):$/;"	m	class:Cell
+parse	web/web_scrapy.py	/^    def parse(self, response):$/;"	m	class:QuotesSpider
+pdf_File	system/audio_book.py	/^pdf_File = open('name.pdf', 'rb') $/;"	v
+pdf_Reader	system/audio_book.py	/^pdf_Reader = PyPDF2.PdfFileReader(pdf_File)$/;"	v
+pg	games/game_of_life.py	/^import pygame as pg$/;"	I	nameref:module:pygame
+phi_spacing	donuts/donut.py	/^phi_spacing = 0.02$/;"	v
+query	web/google_search.py	/^    query = input($/;"	v
+query_finder	web/google_search.py	/^def query_finder(query):$/;"	f
+quit	games/game_of_life.py	/^    def quit(self):$/;"	m	class:Game
+random_walk	randomWalk/randomWalk.py	/^def random_walk(n):$/;"	f
+random_walk2	randomWalk/randomWalk2.py	/^def random_walk2(n):$/;"	f
+random_walk2	randomWalk/randomWalk3.py	/^def random_walk2(n):$/;"	f
+randomize	games/game_of_life.py	/^    def randomize(self, chance_for_alive_cell=RANDOM_CHANCE_TO_ALIVE_CELL):$/;"	m	class:Game
+render_frame	donuts/donut.py	/^def render_frame(A, B):$/;"	f
+run	games/game_of_life.py	/^    def run(self):$/;"	m	class:Game
+screen_height	donuts/donut.py	/^screen_height = 35$/;"	v
+screen_width	donuts/donut.py	/^screen_width = 35$/;"	v
+speech	system/test2speech.py	/^speech = gTTS(text=txt, lang=language, slow=False)$/;"	v
+start_urls	web/web_scrapy.py	/^    start_urls = [$/;"	v	class:QuotesSpider
+survive	games/game_of_life.py	/^    def survive(self):$/;"	m	class:Cell
+textList	system/audio_book.py	/^textList = []$/;"	v
+textString	system/audio_book.py	/^textString = " ".join(textList)$/;"	v
+theta_spacing	donuts/donut.py	/^theta_spacing = 0.07$/;"	v
+txt	system/test2speech.py	/^txt = "This is a test of the library gTTS"$/;"	v
+walk	randomWalk/randomWalk.py	/^    walk = random_walk(10)$/;"	v
+walk	randomWalk/randomWalk2.py	/^    walk = random_walk2(10)$/;"	v

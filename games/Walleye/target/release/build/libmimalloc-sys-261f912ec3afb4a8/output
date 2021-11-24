@@ -1,0 +1,36 @@
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("aes,avx,avx2,bmi1,bmi2,fma,fxsr,lzcnt,pclmulqdq,popcnt,rdrand,rdseed,sse,sse2,sse3,sse4.1,sse4.2,ssse3,xsave,xsaveopt")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("aes,avx,avx2,bmi1,bmi2,fma,fxsr,lzcnt,pclmulqdq,popcnt,rdrand,rdseed,sse,sse2,sse3,sse4.1,sse4.2,ssse3,xsave,xsaveopt")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I" "c_src/mimalloc/include" "-I" "c_src/mimalloc/src" "-Wall" "-Wextra" "-ftls-model=initial-exec" "-DMI_DEBUG=0" "-o" "/home/gocode/scripts/RustChessEngine/Walleye/target/release/build/libmimalloc-sys-261f912ec3afb4a8/out/c_src/mimalloc/src/static.o" "-c" "c_src/mimalloc/src/static.c"
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/gocode/scripts/RustChessEngine/Walleye/target/release/build/libmimalloc-sys-261f912ec3afb4a8/out/libmimalloc.a" "/home/gocode/scripts/RustChessEngine/Walleye/target/release/build/libmimalloc-sys-261f912ec3afb4a8/out/c_src/mimalloc/src/static.o"
+exit status: 0
+running: "ar" "s" "/home/gocode/scripts/RustChessEngine/Walleye/target/release/build/libmimalloc-sys-261f912ec3afb4a8/out/libmimalloc.a"
+exit status: 0
+cargo:rustc-link-lib=static=mimalloc
+cargo:rustc-link-search=native=/home/gocode/scripts/RustChessEngine/Walleye/target/release/build/libmimalloc-sys-261f912ec3afb4a8/out
